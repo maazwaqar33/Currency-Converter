@@ -43,7 +43,7 @@ let amount = user_Choice.amount
 let baseAmount = amount / from 
 let convertedAmount = baseAmount * toAmount
 
-console.log(chalk.yellow(`the converstion rate of ${from} to ${toAmount} is`))
+console.log(chalk.yellow(`the converstion rate of ${user_Choice.amount} ${user_Choice.formCurrency} into ${user_Choice.toCurrency} is`))
 console.log(chalk.green(convertedAmount))
 
 
